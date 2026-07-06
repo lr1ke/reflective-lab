@@ -1,0 +1,57 @@
+baseURL: "http://localhost:1313/"
+locale: "en-us"
+title: "Reflective Lab"
+theme: ["PaperMod"]
+
+enableRobotsTXT: true
+
+params:
+  author: "Ulrike Bloch"
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowShareButtons: false
+  ShowToc: true
+  TocOpen: false
+
+  homeInfoParams:
+    Title: "👋 Welcome to Reflective Lab"
+    Content: >
+      Hi, this is Ulrike. I'm documenting my learning notes and projects in this blog.
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/lr1ke"
+    - name: "linkedin"
+      url: "YOUR_LINKEDIN_URL"
+    - name: "x"
+      url: "YOUR_TWITTER_OR_X_URL"
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 40
+
+    - identifier: archive
+      name: Archive
+      url: /archives/
+      weight: 20
+
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+
+    - identifier: faq
+      name: FAQ
+      url: /faq/
+      weight: 50
