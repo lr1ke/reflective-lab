@@ -16,7 +16,7 @@ params:
   ShowToc: true
   TocOpen: false
   assets:
-    favicon: "/favicon.ico"
+    favicon: "/favicon.png"
 
   homeInfoParams:
     Title: "👋 Welcome to Reflective Lab"
