@@ -1,4 +1,4 @@
-baseURL: baseURL: "https://lr1ke.github.io/reflective-lab/"
+baseURL: "https://lr1ke.github.io/reflective-lab/"
 locale: "en-us"
 title: "Reflective Lab"
 theme: ["PaperMod"]
