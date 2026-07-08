@@ -1,4 +1,4 @@
-baseURL: "http://localhost:1313/"
+baseURL: baseURL: "https://lr1ke.github.io/reflective-lab/"
 locale: "en-us"
 title: "Reflective Lab"
 theme: ["PaperMod"]
@@ -19,7 +19,7 @@ params:
   homeInfoParams:
     Title: "👋 Welcome to Reflective Lab"
     Content: >
-      Hi, this is Ulrike. I'm documenting my learning notes and projects in this blog.
+      Hi, this is Ulrike. I'm documenting my learning notes in this blog.
 
   socialIcons:
     - name: "github"
