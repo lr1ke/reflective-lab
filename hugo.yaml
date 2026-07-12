@@ -27,7 +27,7 @@ params:
     - name: "github"
       url: "https://github.com/lr1ke"
     - name: "linkedin"
-      url: "YOUR_LINKEDIN_URL"
+      url: "https://www.linkedin.com/in/ulrike-bloch-048aa898/"
     - name: "x"
       url: "YOUR_TWITTER_OR_X_URL"
 
