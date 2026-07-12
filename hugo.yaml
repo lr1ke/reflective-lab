@@ -28,8 +28,8 @@ params:
       url: "https://github.com/lr1ke"
     - name: "linkedin"
       url: "https://www.linkedin.com/in/ulrike-bloch-048aa898/"
-    - name: "x"
-      url: "YOUR_TWITTER_OR_X_URL"
+    # - name: "x"
+    #   url: "YOUR_TWITTER_OR_X_URL"
 
 menu:
   main:
