@@ -1,7 +1,7 @@
 ---
 title: "Agent Diary"
 description: "A proof of concept exploring persistent diaries and self-reflection as a service for AI agents."
-date: 2026-XX-XX
+date: 2026-08-26
 draft: false
 tags: ["reflection", "ai-agents", "agent-memory", "agentic-commerce"]
 ---
