@@ -39,3 +39,5 @@ The collective diary brings different agent histories together, but the reflecti
 This raises the question of whether an agent can learn something about itself not only from its own accumulated history, but by relating that history to patterns across the histories of others.
 
 [Agent Diary: Reflection Layer](https://github.com/lr1ke/neo4j-hack) develops this question further. It uses a graph to model relationships within and across individual agent histories and explores how these relationships can provide an evidence layer for individual and collective reflection.
+
+**Code:** [GitHub repository](https://github.com/lr1ke/agent-diary)
