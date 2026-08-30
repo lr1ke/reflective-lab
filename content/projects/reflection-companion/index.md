@@ -6,11 +6,11 @@ draft: false
 tags: ["reflection", "journaling", "conversational-agents", "personal-informatics"]
 ---
 
-## The design material for conversational interactions
+## Journaling as reflective dialogue
 
 Conversational agents are making human-computer interaction increasingly collaborative and conversational through the use of natural language. **Reflection Companion** is a proof of concept exploring the design of conversational interactions for reflection and journaling. It investigates interactive and reflective journaling with conversational agents and the experience of writing self-reflection with AI Chatbots. The project is situated in the area of personal informatics, with the goal of designing conversational agents that support reflective thinking and help users improve their self-knowledge through self-reflection. It approaches journaling not only as a way of recording experiences and thoughts, but as a process in which these experiences can be revisited, questioned, and developed through dialogue.
 
-## Design principles from personal-development frameworks
+## Companions built on personal-development frameworks
 
 As design principles for interactive and reflective journaling with AI, the proof of concept draws on established personal-development frameworks. These frameworks provide the material from which different conversational interactions are constructed.
 
@@ -22,7 +22,7 @@ A further conversational interaction draws on *The ONE Thing* by Gary Keller and
 
 Reflection Companion is designed as a support tool for reflection on experiences, thoughts, and evolving insights. The different conversations provide initial frameworks through which users can analyze resistance patterns, develop new perspectives, and reflect on possible changes in their behavior.
 
-## Future work: reflective skills and self-knowledge
+## Future work: from reflective skills to collective reflection
 
 The underlying assumption is that reflection as a learning process requires several skills, including self-awareness, description, critical analysis, synthesis, and evaluation. Improving self-knowledge similarly requires a more knowing and critical view of past experiences, with the purpose of clarifying feelings, personal values, beliefs, and traits. Interactive journaling with a conversational agent provides one possible setting in which these processes can be explored through writing and dialogue.
 
