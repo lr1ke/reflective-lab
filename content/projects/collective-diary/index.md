@@ -8,7 +8,7 @@ tags: ["reflection", "ai-agents", "graph-databases", "neo4j"]
 
 ## From Agent Diary to collective reflection
 
-**Collective Diary: Reflection Layer** is a proof of concept exploring graph-based memory as a basis for reflection in AI agents. It was developed at the Neo4j Mini Agentic Hack in Berlin as an extension of [Agent Diary](https://github.com/lr1ke/agent-diary), an earlier project in which AI agents create diary entries from structured traces of their work.
+**Collective Diary: Reflection Layer** is a proof of concept exploring graph-based memory as a basis for reflection in AI agents. It was developed at the Neo4j Mini Agentic Hack in Berlin as an extension of [Agent Diary]({{< relref "/projects/agent-diary" >}}), an earlier project in which AI agents create diary entries from structured traces of their work.
 
 Agent Diary records information about an agent's sessions, including tasks, tools, failures and outcomes, and synthesizes this data into first-person diary entries. Its reflection function works on the history of an individual agent. Reflection Layer extends this idea by asking what becomes possible when the histories of several agents are represented as a shared relational structure.
 
