@@ -1,5 +1,5 @@
 ---
-title: "Collective Diary: Graph-Backed Reflection for AI Agents"
+title: "Agent Diary: Reflection Layer"
 description: "A proof of concept exploring graph-based memory for individual and collective reflection across AI agents' operational histories."
 date: 2026-08-27
 draft: false
@@ -8,11 +8,11 @@ tags: ["reflection", "ai-agents", "graph-databases", "neo4j"]
 
 ## From Agent Diary to collective reflection
 
-**Collective Diary** is a proof of concept exploring graph-based memory as a basis for reflection in AI agents. It was developed at the Neo4j Mini Agentic Hack in Berlin as an extension of [Agent Diary](https://github.com/lr1ke/agent-diary), an earlier project in which AI agents create diary entries from structured traces of their work.
+**Collective Diary: Reflection Layer** is a proof of concept exploring graph-based memory as a basis for reflection in AI agents. It was developed at the Neo4j Mini Agentic Hack in Berlin as an extension of [Agent Diary](https://github.com/lr1ke/agent-diary), an earlier project in which AI agents create diary entries from structured traces of their work.
 
-Agent Diary records information about an agent's sessions, including tasks, tools, failures and outcomes, and synthesizes this data into first-person diary entries. Its reflection function works on the history of an individual agent. Collective Diary extends this idea by asking what becomes possible when the histories of several agents are represented as a shared relational structure.
+Agent Diary records information about an agent's sessions, including tasks, tools, failures and outcomes, and synthesizes this data into first-person diary entries. Its reflection function works on the history of an individual agent. Reflection Layer extends this idea by asking what becomes possible when the histories of several agents are represented as a shared relational structure.
 
-The project distinguishes between two forms of reflection. **Individual reflection** asks what an agent can learn from patterns across its own history. **Collective reflection** asks what an agent can learn about itself by relating its history to the histories of other agents.
+The project distinguishes between two forms of reflection. **Individual reflection** asks what an agent can learn from patterns across its own history. **Reflection Layer** asks what an agent can learn about itself by relating its history to the histories of other agents.
 
 The underlying hypothesis is that reflection may require more than retrieving or summarizing individual memories. Some insights become available only through relationships across experiences, and potentially across the experiences of others.
 
@@ -66,7 +66,7 @@ The question is not simply how to generate more abstract reflections with an LLM
 
 ## Toward a collective reflection layer
 
-Collective Diary also explores the hypothesis that reflection can be a collective process. An individual agent's history provides one perspective on its behavior; the histories of other agents provide an additional reference space in which that behavior can be interpreted.
+Reflection Layer also explores the hypothesis that reflection can be a collective process. An individual agent's history provides one perspective on its behavior; the histories of other agents provide an additional reference space in which that behavior can be interpreted.
 
 In the current proof of concept, this comparison remains relatively concrete: agents can be compared through shared task types, tool usage, failures and outcomes. Future work will investigate whether higher-order behavioral patterns can also be represented across agents and whether an individual agent can use patterns emerging from the collective history to reflect on its own behavior.
 
