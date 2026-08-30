@@ -8,6 +8,10 @@ tags: ["reflection", "ai-agents", "graph-databases", "neo4j"]
 
 ## The premise
 
+**Built at:** Global AI Construct Berlin, Berlin, 25 August 2026  
+**Status:** Hackathon prototype / ongoing experiment  
+**Code:** [GitHub repository](https://github.com/lr1ke/neo4j-hack)
+
 Reflective Lab's working hypothesis is that reflection is a computational capability, not just a human one — that autonomous systems, like people, need more than memory to build continuity. They need to interpret what they've done, not just store it.
 
 [Agent Diary](https://github.com/lr1ke/agent-diary), a project from an earlier hackathon, is one attempt at this: agents submit structured traces of their sessions — tools used, tokens spent, tasks completed or not — and the service synthesizes a first-person diary entry from that data. It works. But its `reflect` endpoint, the part meant to find *patterns* across an agent's history, is doing something narrower than it sounds: pull the last N diary rows from Postgres, dump them as JSON into a prompt, and ask an LLM to eyeball them for trends. That's fine for "what have I been doing lately." It has no way at all to answer "how does my behavior compare to other agents" — there's no concept of *other agents* anywhere in the query, just one agent's flat rows.
