@@ -20,11 +20,11 @@ The underlying hypothesis is that reflection may require more than retrieving or
 
 The proof of concept uses Neo4j to represent structured agent histories as a graph. The model consists of four node types and three relationships:
 
-\`\`\`
+```
 (Agent)-[:RAN]->(Session)-[:CLASSIFIED_AS]->(TaskType)
                     |
                     +-[:USED_TOOL {succeeded}]->(Tool)
-\`\`\`
+```
 
 `TaskType` and `Tool` connect otherwise separate agent histories through shared nodes. This makes it possible to query relationships within an individual history as well as patterns that occur across several agents.
 
@@ -50,7 +50,7 @@ Instead of beginning with a fixed vocabulary of behavioral categories, recurring
 
 This suggests an additional abstraction layer:
 
-\`\`\`
+```
 agent experiences
       ↓
 operational patterns
@@ -60,7 +60,7 @@ behavioral modes
 higher-order interpretation
       ↓
 reflection
-\`\`\`
+```
 
 The question is not simply how to generate more abstract reflections with an LLM, but how these abstractions can remain grounded in the experiences from which they were derived.
 
